@@ -1,0 +1,439 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;\red0\green0\blue0;
+\red179\green179\blue179;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;\cssrgb\c0\c0\c0\c84706;
+\cssrgb\c75294\c75294\c75294;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid601\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Product Requirements Document (Refined)\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\fs36 \cf0 Overview\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 This PRD outlines refinements and additional functionalities to be integrated into the existing system. The goal is to enhance the system\'92s capabilities in real-time data tracking, external API integration, configurability, robust logging, and local AI support. The document is structured to help even a junior Python developer understand and implement these requirements effectively.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Automated Updates to Numbers Spreadsheet\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Description:
+\f1\b0  The system should automatically update an Apple Numbers spreadsheet with the latest scraped data in real time. This ensures that end-users or stakeholders can view up-to-date information without manual data entry or refresh.\
+
+\f0\b Requirements:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Real-Time Sync:
+\f1\b0  As new data is scraped or processed, it must be pushed to a designated Numbers spreadsheet immediately. The update should reflect the latest values for all tracked metrics and tickers.\
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Mapping:
+\f1\b0  Define a clear mapping between scraped data fields and specific cells or tables in the Numbers spreadsheet. For example, each ticker could correspond to a row with columns for price, volume, etc.\
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Automation Method:
+\f1\b0  Implement a reliable method to update the spreadsheet programmatically (e.g. using AppleScript, the Numbers API, or writing to a CSV that Numbers can ingest) on macOS. If the spreadsheet is cloud-shared (via iCloud), ensure updates sync across devices.\
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 No Manual Intervention:
+\f1\b0  The update process should run in the background without requiring the user to manually open or refresh the spreadsheet.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 User Benefit:
+\f1\b0  This feature provides a live dashboard of data for users (leveraging the familiar Numbers interface). It eliminates manual copy-paste and reduces errors, ensuring stakeholders always see up-to-the-minute data with minimal effort.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 DEX Screener API Integration\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Description:
+\f1\b0  Integrate the DEX Screener API to fetch key details for every mentioned cryptocurrency ticker in the system. DEX Screener provides real-time on-chain data, allowing our system to enrich its output with accurate market metrics\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://www.bittime.com/en/blog/tips-dan-trik-menggunakan-dexscreener-untuk-analisis-kripto#:~:text=1.%C2%A0Real"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 bittime.com}}\
+.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Requirements:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Fields:
+\f1\b0  For each ticker, retrieve and store the following from DEX Screener:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Ticker Name/Symbol:
+\f1\b0  Human-readable name or symbol of the token (e.g. 
+\f0\b ETH
+\f1\b0  for Ethereum).\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Contract Address:
+\f1\b0  The unique blockchain contract address identifying the token (used to query DEX Screener).\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Current Price:
+\f1\b0  The latest trading price of the token.\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 24h Trading Volume:
+\f1\b0  The trading volume over the last 24 hours {\field{\*\fldinst{HYPERLINK "https://www.bittime.com/en/blog/tips-dan-trik-menggunakan-dexscreener-untuk-analisis-kripto#:~:text=1.%C2%A0Real"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 bittime.com}}\uc0\u8232 .\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Market Capitalization:
+\f1\b0  The current market cap of the token {\field{\*\fldinst{HYPERLINK "https://www.bittime.com/en/blog/tips-dan-trik-menggunakan-dexscreener-untuk-analisis-kripto#:~:text=1.%C2%A0Real"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 bittime.com}}\uc0\u8232 (usefully, DEX Screener provides market cap or fully diluted value).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 API Usage:
+\f1\b0  Use DEX Screener\'92s official API endpoints to fetch the above data. Ensure that any required parameters (such as chain ID or token address) are provided correctly. Handle rate limits (e.g. DEX Screener allows ~60 requests/minute; implement delays or batching as needed).\
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Integration:
+\f1\b0  Incorporate the fetched data into the system\'92s data model or database. For instance, when displaying or logging ticker info, include these new fields. If persistent storage is used, add fields/columns for volume, market cap, etc.\
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Error Handling:
+\f1\b0  If the API call fails or returns incomplete data for a ticker, log an error (see Logging section) and skip or retry gracefully. The system should continue operating even if one ticker\'92s data is unavailable temporarily.\
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Scalability:
+\f1\b0  Design the integration such that adding new tickers or switching to a different data source is easy. For example, if tickers are listed in a config file, the system can loop through them and pull data from DEX Screener for each.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 User Benefit:
+\f1\b0  This integration provides richer context for each tracked token. Users can see crucial market data (price, volume, market cap) alongside other scraped insights. Having these metrics directly in the system saves users from manually checking DEX Screener or other sites for basic token information, thus streamlining their workflow.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Configurable Scrape Scheduling\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Description:
+\f1\b0  Make the scraping process timing configurable by the user. Instead of a fixed schedule, allow the user to adjust how often and when data scraping occurs through a simple configuration file. This flexibility helps accommodate different use cases (e.g. intensive real-time monitoring vs. periodic updates).\
+
+\f0\b Requirements:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Config File:
+\f1\b0  Provide a configuration file (YAML or JSON) that defines the scraping schedule. A YAML format is human-friendly and can include comments explaining each field, but JSON is also acceptable. For example: 
+\f2\fs26 yaml\uc0\u8232 
+\f3\fs22 \cf4 \cb5 \strokec4 Copy
+\f2\fs26 \cf0 \cb1 \strokec2 \uc0\u8232 \u8232 \u8232 scrape_interval_minutes: 5    # Interval between scrapes (default 5 minutes)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 # Optionally, a specific daily run time instead of continuous interval:\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 daily_run_time: "08:00"       # If set, run scrape daily at 08:00 AM\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \uc0\u8232 \u8232 \u8232 
+\f1\fs24 Each setting in this file should be clearly documented (either via comments in the file or in the README).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Adjustable Frequency:
+\f1\b0  Support configuring the interval (in minutes or seconds) between consecutive scrapes. For instance, a user might set it to scrape every 5 minutes, every 60 minutes, etc., by changing one value in the config. The system should read this setting on startup (or at runtime) and adjust the scheduling accordingly.\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Specific Timing (Optional):
+\f1\b0  Optionally support more advanced scheduling like a specific time of day or multiple times per day. This could be via a simple cron-like syntax or separate config fields (as shown above). If implemented, ensure the format and precedence (interval vs specific time) is well-documented to avoid confusion.\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Ease of Use:
+\f1\b0  Applying new schedule settings should be straightforward. The user can edit the config file and restart the scraper to apply changes. (If feasible, the system could also watch the config file for changes and reload the schedule without a full restart, but this is a bonus.)\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Defaults and Rationale:
+\f1\b0  Provide sensible default scheduling values. For example, default to scraping every 5 minutes, as this offers near-real-time updates without overwhelming the API or the local system. Document these defaults in the README with reasoning (e.g., \'935 minutes is a good balance between timeliness and resource usage for most use cases\'94).\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 README Documentation:
+\f1\b0  The README must include a 
+\f0\b Configuration
+\f1\b0  section explaining each scheduling option. For each config field, describe what it does, the format, the default value, and why a user might want to change it. This guidance ensures even a junior developer or non-developer user can confidently adjust the schedule.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 User Benefit:
+\f1\b0  Users can tailor the data collection frequency to their needs without modifying code. For fast-moving scenarios, they can increase the frequency; for resource-constrained environments or less critical monitoring, they can reduce it. Clear documentation of these settings empowers users to customize the system safely and effectively.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Modular API Plugin System\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Description:
+\f1\b0  Redesign the system\'92s architecture to support a plugin-like mechanism for API integrations. This will allow new data sources (DEX Screener, CoinGecko, Binance, etc.) to be \'93plugged in\'94 easily without altering the core system. The system should handle multiple API response formats gracefully, ensuring compatibility with JSON, XML, and other data formats.\
+
+\f0\b Requirements:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Plugin Interface:
+\f1\b0  Define a standard interface or abstract base class that all API modules must implement (e.g. 
+\f2\fs26 DataSourcePlugin
+\f1\fs24  with methods like 
+\f2\fs26 fetch_data()
+\f1\fs24  and 
+\f2\fs26 parse_data()
+\f1\fs24 ). The method signatures and expected output format should be consistent. This way, the main application can interact with any plugin uniformly (e.g. call 
+\f2\fs26 plugin.fetch_data()
+\f1\fs24  to get fresh data, regardless of source).\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Isolated Modules:
+\f1\b0  Each API integration should reside in its own module or class file. For example, have a 
+\f2\fs26 dexscreener_plugin.py
+\f1\fs24  for DEX Screener, 
+\f2\fs26 coingecko_plugin.py
+\f1\fs24  for CoinGecko, etc. These modules encapsulate all logic specific to that API (endpoints, authentication if any, response parsing). The core system should 
+\f0\b not
+\f1\b0  contain hardcoded specifics for each API.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Dynamic Loading:
+\f1\b0  Implement a mechanism to load and initialize plugins based on configuration. For instance, the config file might list enabled APIs (e.g., 
+\f2\fs26 enabled_apis: ["DexScreener", "CoinGecko"]
+\f1\fs24 ), and the system will import and use those plugin classes. This allows adding a new plugin by simply adding a new file and updating the config, without modifying the main loop logic.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Multiple Format Support:
+\f1\b0  Ensure plugins can handle different response formats:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 For 
+\f0\b JSON
+\f1\b0  APIs: Use a JSON parser (e.g. Python\'92s 
+\f2\fs26 json
+\f1\fs24  library) to decode responses. Each plugin should map the JSON fields to the internal data schema (e.g. extract price, volume from the JSON).\
+\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 For 
+\f0\b XML
+\f1\b0  or other formats: Use appropriate libraries (e.g. 
+\f2\fs26 xml.etree.ElementTree
+\f1\fs24  or 
+\f2\fs26 xmltodict
+\f1\fs24  for XML) within the plugin to parse the data. The plugin then converts it to the same internal structure as a JSON-based plugin would.\
+\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The core system should receive data from plugins in a uniform structure (e.g. a Python dict with standard keys like 
+\f2\fs26 price
+\f1\fs24 , 
+\f2\fs26 volume
+\f1\fs24 , etc.), so it doesn\'92t matter what format the source was.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Extensibility:
+\f1\b0  Adding a new API plugin in the future should require minimal effort: create a new module implementing the interface, and list it in the config. It should not break or require changes in existing plugins or core code. This might involve designing default behaviors or ignoring unknown data fields gracefully.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Error Isolation:
+\f1\b0  If one plugin fails (e.g. one API is down or returns unexpected data), it should not crash the entire system. Use try-catch around plugin calls and perhaps skip or disable a plugin if it consistently fails, while logging the issue. This ensures other plugins (data sources) continue to work.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Documentation for Developers:
+\f1\b0  Include a section in the README or a separate developer guide on how to add new plugins. For example, document the required interface methods and provide a simple code example or template plugin. This will help future developers (even junior ones) to extend the system easily.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Developer Benefit:
+\f1\b0  This modular architecture makes the system highly extensible and maintainable. New integrations can be added without touching core logic, reducing the risk of bugs. It also allows parallel development \'97 different team members can work on different API plugins independently. For a junior developer, the clear interface and examples will make it easier to follow the pattern and contribute new plugins.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Advanced Logging and Debugging\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Description:
+\f1\b0  Implement a comprehensive logging system to aid in debugging and performance monitoring. The logs should be detailed and structured so that both developers and automated tools (like AI language models) can read and analyze them.\
+
+\f0\b Requirements:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Logging Framework:
+\f1\b0  Use Python\'92s built-in 
+\f2\fs26 logging
+\f1\fs24  module (or an equivalent) to manage log output. Configure multiple log levels (DEBUG, INFO, WARNING, ERROR) to capture different granularities of information. During normal operation, INFO and above might be recorded, whereas DEBUG can be turned on for troubleshooting.\
+\ls5\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Error and Event Logging:
+\f1\b0  Ensure that all errors/exceptions are caught and logged with as much context as possible (stack trace, which ticker or operation caused it, etc.). Important events (like \'93Scrape started\'94, \'93Scrape finished\'94, \'93Data saved to spreadsheet\'94) should be logged at INFO level. Debug logs can include more fine-grained detail (such as the raw API response payload, timing information, or interim calculation results).\
+\ls5\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Structured Format:
+\f1\b0  Format logs in a structured manner (e.g. JSON lines or key-value pairs) to improve readability and facilitate machine parsing. For example, a log entry could be formatted as a JSON object: 
+\f2\fs26 json\uc0\u8232 
+\f3\fs22 \cf4 \cb5 \strokec4 Copy
+\f2\fs26 \cf0 \cb1 \strokec2 \uc0\u8232 \u8232 \u8232 \{"timestamp": "2025-03-18T04:09:06Z", "level": "ERROR", "module": "DexScreenerPlugin", "message": "Failed to fetch data for XYZ", "error": "Timeout after 10s"\}\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \uc0\u8232 \u8232 \u8232 
+\f1\fs24 Using structured logging (such as JSON) makes logs easy to query and analyze programmatically {\field{\*\fldinst{HYPERLINK "https://stephencollins.tech/newsletters/tracking-ai-processes-activity-logs-llms#:~:text=LLMs%20stephencollins,Include%20details%20like"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 stephencollins.tech}}\uc0\u8232 . Include useful details like timestamps, module/function name, the operation or ticker in question, and error messages.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Performance Monitoring:
+\f1\b0  Incorporate logging of performance metrics. For instance, log the time taken for each scrape cycle (e.g. \'93Scrape completed in 3.2 seconds\'94), and maybe memory or CPU usage snapshots if relevant. Over time, these logs can reveal performance trends or help identify memory leaks.\
+\ls5\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Log Storage & Rotation:
+\f1\b0  Save logs to files with proper rotation (to prevent unlimited file growth). For example, implement daily log files or size-limited rotating logs. Ensure that old logs are archived or purged as appropriate to manage disk usage.\
+\ls5\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 AI-Readable Logs:
+\f1\b0  The log format should be consistent and structured so that an AI LLM can ingest them for analysis. In the future, a developer could use an LLM to parse the log file and ask questions like \'93what errors occurred in the last 24 hours?\'94 or \'93summarize recent performance issues.\'94 By having machine-friendly logs, such advanced analysis becomes easier. (This implies avoiding free-form unstructured text in logs when possible; prefer key-value style or JSON entries.)\
+\ls5\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Debug Mode Toggle:
+\f1\b0  Provide an easy way to enable a verbose debug mode (via the config file or a command-line flag). In debug mode, the system would log at DEBUG level, showing detailed step-by-step information. This is essential for developers trying to trace an issue. The README should explain how to enable this mode.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 User/Developer Benefit:
+\f1\b0  Robust logging simplifies troubleshooting and maintenance. A junior developer can rely on clear, structured log messages to understand what the program was doing and where it might be failing. The structured logs also open the door for using AI tools to quickly sift through logs and diagnose problems, which can drastically reduce debugging time. Additionally, performance logs help in optimizing the system over time (e.g., if scrapes are getting slower, logs will show it).\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Optimized Local LLM Pairing\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Description:
+\f1\b0  Evaluate and utilize the best-performing local Large Language Model (LLM) for specific analytical tasks within the system. Given that multiple LLMs (e.g. 
+\f4\i Gemma
+\f1\i0 , 
+\f4\i DeepSeek
+\f1\i0 , 
+\f4\i Qwen
+\f1\i0 ) are installed, the system should determine which model is most suitable for tasks such as sentiment analysis, error debugging assistance, and providing trading insights.\
+
+\f0\b Requirements:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Task Categorization:
+\f1\b0  Identify the key tasks in the system that rely on LLMs:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls6\ilvl1
+\f4\i \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Sentiment Analysis:
+\f1\i0  Analyzing text (such as news articles, tweets, or forum posts) to gauge the sentiment (positive/negative/neutral) regarding a particular token or the overall market.\
+\ls6\ilvl1
+\f4\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Error Debugging Assistance:
+\f1\i0  Interpreting error messages or log content to suggest probable causes or solutions (essentially using the LLM as a smart debugging assistant).\
+\ls6\ilvl1
+\f4\i \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Trading Insights:
+\f1\i0  Generating insights or summaries from the scraped data (for example, highlighting unusual trading volume or summarizing market trends for the user).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Model Evaluation:
+\f1\b0  For each of the above tasks, evaluate the available LLMs on key criteria:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls6\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Accuracy/Relevance:
+\f1\b0  How accurate or relevant are the model\'92s outputs for the task? (e.g. Does the model correctly identify sentiment from a sample text? Does it provide helpful and correct debugging suggestions?)\
+\ls6\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Performance:
+\f1\b0  How fast does the model produce results, and what computational resources does it require (CPU/GPU, memory)? A lighter model might be faster for real-time tasks, whereas a larger model might give better answers but with latency.\
+\ls6\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Reliability:
+\f1\b0  Consider the model\'92s consistency and tendency to stay on topic. For instance, one model might occasionally produce off-topic or nonsensical answers, which would be detrimental for our use case.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Selection and Pairing:
+\f1\b0  Based on the evaluation, decide which model to pair with each task:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls6\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If 
+\f0\b Gemma
+\f1\b0  has the highest sentiment analysis accuracy and good speed, designate it as the 
+\f4\i sentiment analysis model
+\f1\i0 .\
+\ls6\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If 
+\f0\b DeepSeek
+\f1\b0  provides the best explanations for debugging, use it for 
+\f4\i error debugging assistance
+\f1\i0 .\
+\ls6\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 If 
+\f0\b Qwen
+\f1\b0  (or another model) excels in understanding trading data and giving insights, use that for 
+\f4\i trading insights
+\f1\i0 .\
+\ls6\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Note: If one model outperforms others in all aspects, it\'92s acceptable to use it for all tasks to simplify the system. However, documenting the evaluation is still important for future reference.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Integration:
+\f1\b0  Implement the system so that it uses the chosen model for each task. For example, have separate functions or classes for each task that internally call the appropriate model. This could be configured via a mapping, e.g., 
+\f2\fs26 model_for_sentiment = "Gemma"
+\f1\fs24 , etc., possibly defined in the config file.\
+\ls6\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Configurability:
+\f1\b0  Allow an override in the configuration for which model to use per task. For instance, in the config file: 
+\f2\fs26 yaml\uc0\u8232 
+\f3\fs22 \cf4 \cb5 \strokec4 Copy
+\f2\fs26 \cf0 \cb1 \strokec2 \uc0\u8232 \u8232 \u8232 sentiment_model: "Gemma"       # Options: Gemma, DeepSeek, Qwen, etc.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 debugging_model: "DeepSeek"  \
+\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 insights_model: "Qwen"  \
+\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \uc0\u8232 \u8232 \u8232 
+\f1\fs24 This way, if the user upgrades models or prefers a different one, they can change it without code modifications. The system should read these settings and load/use the specified model for the respective task. Include safe fallbacks if a model name is unrecognized (e.g., default to Gemma).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Testing and Verification:
+\f1\b0  After pairing the tasks with models, perform tests to verify the choice. For example, run a set of sample sentiment texts through the chosen sentiment model to ensure it\'92s performing well. Likewise, test the debugging model on sample errors to see if its suggestions are sound. This serves as a validation that the optimal model was chosen, and results (anecdotal or quantitative) can be noted in documentation.\
+\ls6\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Documentation:
+\f1\b0  Document which model is used for each task by default and the reasoning (e.g., \'93Using Gemma for sentiment analysis due to its higher accuracy in preliminary tests, as it correctly classified 95% of sample tweets\'94). Also, provide instructions in the README on how to change the model via the config, and mention any prerequisites (for example, if running Qwen requires more memory or a GPU, note that for the user).\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 User/Developer Benefit:
+\f1\b0  By pairing each task with the most effective AI model, the system\'92s analytical capabilities become more accurate and efficient. Users benefit from more reliable sentiment scores, smarter debugging help, and insightful analysis, which can inform better decision-making. For a junior developer, this section also provides a learning opportunity in evaluating AI models and configuring them, demystifying how to leverage multiple models in one project. It ensures the system is set up to use the best available tool for each job, and is adaptable as new or better models become available.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Conclusion\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 With these refinements, the product will be significantly more robust and user-friendly. Each new feature is designed to enhance either the system\'92s usability (real-time spreadsheet updates, configurable scheduling), its extensibility (plugin system for APIs), or its intelligence and maintainability (advanced logging, optimized LLM usage). The PRD above provides a clear roadmap for implementation, ensuring that even a junior Python developer can confidently develop and integrate these features into the existing system while understanding the rationale behind each requirement.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 Sources:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 DexScreener real-time data (price, volume, market cap) {\field{\*\fldinst{HYPERLINK "https://www.bittime.com/en/blog/tips-dan-trik-menggunakan-dexscreener-untuk-analisis-kripto#:~:text=1.%C2%A0Real"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 bittime.com}}\
+\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Structured logging recommendation (JSON logs for easy analysis) {\field{\*\fldinst{HYPERLINK "https://stephencollins.tech/newsletters/tracking-ai-processes-activity-logs-llms#:~:text=LLMs%20stephencollins,Include%20details%20like"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 stephencollins.tech}}\
+}
