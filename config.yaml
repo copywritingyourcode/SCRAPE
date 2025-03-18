@@ -1,0 +1,44 @@
+# Crypto Scraper Configuration
+# This file controls all aspects of the cryptocurrency data scraper system
+
+# Logging configuration
+logging:
+  level: "INFO"                     # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file_path: "logs/scraper.log"     # Path to write log files
+  max_size_mb: 10                   # Maximum size of each log file in MB
+  backup_count: 5                   # Number of backup log files to keep
+  format: "json"                    # Log format: json or text
+
+# Schedule configuration
+schedule:
+  scrape_interval_minutes: 5        # Interval between scrapes in minutes
+  daily_run_time: null              # Optional specific daily time (HH:MM format)
+
+# Apple Numbers spreadsheet configuration
+spreadsheet:
+  spreadsheet_path: "~/Documents/Crypto_Dashboard.numbers"  # Path to Numbers spreadsheet
+  auto_update: true                 # Whether to automatically update the spreadsheet
+  update_method: "applescript"      # Update method: applescript or csv
+
+# LLM configuration
+model:
+  sentiment_model: "Gemma"          # Model for sentiment analysis
+  debugging_model: "DeepSeek"       # Model for error debugging
+  insights_model: "Qwen"            # Model for trading insights
+  models_path: "~/models"           # Path to local model files
+
+# API configuration
+api:
+  enabled_apis:                     # List of enabled API plugins
+    - "DexScreener"
+  request_timeout_seconds: 30       # Timeout for API requests
+  max_retries: 3                    # Maximum number of retries for failed requests
+  rate_limit_safety_factor: 0.8     # Factor to stay under API rate limits (0.0-1.0)
+
+# List of cryptocurrency tickers to track
+tickers:
+  - "ETH"
+  - "BTC"
+  - "SOL"
+  - "AVAX"
+  - "MATIC" 
